@@ -140,7 +140,7 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1, 36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -151,7 +151,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height:1,16;
+    line-height: 1, 16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -226,8 +226,9 @@ body {
     margin-right: 25px;
 
 }
+
 .our-team-section li h3,
-.our-team-section li p{
+.our-team-section li p {
     display: flex;
     justify-content: center;
 }
@@ -334,6 +335,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
+    padding-right: 94px;
 }
 
 .address-portfolio div div a:hover,
@@ -347,4 +349,21 @@ body {
 
 .contact-portfolio {
     color: var(--contact-text-footer);
+}
+.footer-section{
+    display: flex;
+}
+
+/*icons*/
+.icons-our-team {
+    display: inline-block;
+    stroke-width: 0;
+
+}
+.icons-our-team:hover {
+    
+}
+.our-team-icons{
+    display: flex;
+    justify-content: center; 
 }
