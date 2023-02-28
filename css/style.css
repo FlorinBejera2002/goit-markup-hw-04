@@ -12,6 +12,7 @@ body {
     --footer-background: #2F303A;
     --background-section: #F5F4FA;
     --color-section: #E5E5E5;
+    --icon-color:#212121;
 }
 
 /*GLobal*/
@@ -203,8 +204,6 @@ body {
 .indication-section .container {
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
-
 }
 
 .indication-section>h3 {
@@ -369,6 +368,17 @@ body {
 .contact-list-item:hover{
     fill: var(--hover-color);
 }
+
+.indication-icon-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background:var(--background-section);
+    border-radius: 4px;
+    fill: var(--icon-color);
+}
 .icon-item {
     background-color: none;
     display: flex;
@@ -393,4 +403,7 @@ body {
     gap: 10px;
     align-items: center;
     margin-bottom: 30px;
+}
+.icons-container-regular{
+    display: flex;
 }
