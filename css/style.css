@@ -101,12 +101,12 @@ body {
     color: var(--hover-color);
 }
 
-.right-navigation-list li a {
+.right-navigation-list a {
     color: var(--text-contact);
 }
 
-.right-navigation-list li a:hover,
-.right-navigation-list li a:focus {
+.right-navigation-list a:hover,
+.right-navigation-list a:focus {
     color: var(--hover-color);
 }
 
@@ -160,11 +160,18 @@ body {
     margin-bottom: 50px;
 }
 
-.section-images,
+.section-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
 .our-team-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 30px;
 
 
 }
@@ -173,7 +180,7 @@ body {
     background-color: var(--background-section);
 }
 
-.our-team-section li {
+.our-team-section div {
     background: var(--focus-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -222,17 +229,17 @@ body {
     color: #757575;
 }
 
-.image-center {
-    margin-right: 25px;
 
-}
-
-.our-team-section li h3,
-.our-team-section li p {
+.our-team-section h3,
+.our-team-section p {
     display: flex;
     justify-content: center;
 }
 
+.our-team-section h3 {
+    padding-top: 30px;
+    list-style: none;
+}
 
 /* main*/
 
@@ -350,20 +357,40 @@ body {
 .contact-portfolio {
     color: var(--contact-text-footer);
 }
-.footer-section{
+
+.footer-section {
     display: flex;
 }
 
 /*icons*/
-.icons-our-team {
-    display: inline-block;
+.contact-list-item{
+    fill: #757575;
+}
+.contact-list-item:hover{
+    fill: var(--hover-color);
+}
+.icon-item {
+    background-color: none;
+    display: flex;
     stroke-width: 0;
+    fill: #AFB1B8;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 
 }
-.icons-our-team:hover {
-    
+
+.icon-item:hover {
+    fill: var(--focus-color);
+    background-color: var(--hover-color);
 }
-.our-team-icons{
+
+.our-team-icons {
     display: flex;
-    justify-content: center; 
+    padding: auto 32px;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
 }
