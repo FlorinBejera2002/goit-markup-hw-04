@@ -191,7 +191,7 @@ body {
 
 .hero-section {
     background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(/images/Overlay.jpg) no-repeat;
+        url(../images/Overlay.jpg) no-repeat;
     background-position: 50% 50%;
     background-size: contain;
     background-attachment: scroll;
@@ -339,10 +339,12 @@ body {
 }
 
 /*footer*/
+.footer{
+  width: auto;
+  height: 251px;
+}
 
 .footer-portfolio {
-    box-sizing: border-box;
-    height: 251px;
     background: var(--footer-background);
     padding-top: 60px;
     padding-bottom: 60px;
